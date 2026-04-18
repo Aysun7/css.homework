@@ -1,7 +1,5 @@
-* {
 
-}
-.project-management h2 {
+.project-management h2 ,.work-together h2 {
     position: relative;
     z-index: 2;
 }
@@ -16,24 +14,25 @@
     bottom: -15px;
     z-index: 1;
 }
-.project-management .text-block {
+.project-management .text-block, .work-together .text-block {
+    width: 400px;
    max-width: 672px;
 }
 .hero-section .container {
     display: flex;
     align-items: center;
 }
-.project-management {
+.project-management , .work-together  {
     background-color: white;
     height: 760px;
-    display: flex;
-    justify-content: center;
-        align-items: center;
+    display:flex;
+    justify-content:center;
+        align-items:center;
 }
-.project-management h2, .project-management p {
+.project-management h2, .project-management p, .work-together h2, .work-together p {
     color: black;
 }
-.project-management .container {
+.project-management .container, .work-together .container {
     display: flex;
     gap: 60px;
     align-items: center;
