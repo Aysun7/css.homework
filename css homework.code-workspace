@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Landing page V1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css homework",
+		"liveServer.settings.port": 5502
+	}
+}
